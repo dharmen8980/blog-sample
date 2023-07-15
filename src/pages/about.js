@@ -1,5 +1,5 @@
 import React from 'react'
-import {Introduction} from './aboutMeFiles/introduction';
+import Introduction from './aboutMeFiles/introduction';
 const About = () => {
   return (
     <main className='bg-gradient-to-b from-black to-gray-700 h-[100vh]'>

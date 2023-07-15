@@ -10,7 +10,7 @@ import {
 } from "@nextui-org/react";
 import Image from "next/image";
 import { IoIosExpand } from "react-icons/io";
-import { shortcuts } from "./contents/shortcuts";
+import shortcuts  from "./contents/shortcuts";
 
 const Home = () => {
   return (
