@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Card, Text, Image } from "@nextui-org/react";
 
-export const Introduction = () => {
+const Introduction = () => {
   return (
     <div>
       <Container className="max-w-6xl mx-auto">
@@ -32,3 +32,5 @@ export const Introduction = () => {
     </div>
   );
 };
+
+export default Introduction;

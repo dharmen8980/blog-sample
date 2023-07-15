@@ -1,4 +1,4 @@
-export const shortcuts = [
+const shortcuts = [
     {
         "Common Shortcuts": [
             {
@@ -159,3 +159,5 @@ export const shortcuts = [
         ],
     },
 ]
+
+export default shortcuts;

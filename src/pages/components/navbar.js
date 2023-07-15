@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Link, Text } from "@nextui-org/react";
 
-export const NavMenu = () => {
+const NavMenu = () => {
   const collapseItems = [
     {
       Home: "/",
@@ -40,3 +40,5 @@ export const NavMenu = () => {
     </Navbar>
   );
 };
+
+export default NavMenu;

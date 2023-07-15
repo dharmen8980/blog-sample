@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Text, Grid, Card, Divider, Link, Spacer } from "@nextui-org/react";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="bg-white shadow-lg">
       <Container fluid className="max-w-6xl bg-white rounded-lg p-0">
@@ -69,3 +69,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

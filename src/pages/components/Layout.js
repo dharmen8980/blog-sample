@@ -2,7 +2,7 @@ import React from 'react'
 import { NavMenu } from './navbar'
 import { Footer } from './footer'
 
-export const Layout = ({children}) => {
+const Layout = ({children}) => {
   return (
     <>
         <NavMenu/>
@@ -11,3 +11,5 @@ export const Layout = ({children}) => {
     </>
   )
 }
+
+export default Layout;
