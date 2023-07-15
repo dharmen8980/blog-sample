@@ -25,7 +25,7 @@ export const Introduction = () => {
             </Text>
           </Grid>
           <Grid sm={4} className="">
-            <Image src="/background.jpg" width={300} height={300} />
+            <Image src="/background.jpg" alt="background" width={300} height={300} />
           </Grid>
         </Grid.Container>
       </Container>

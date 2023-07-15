@@ -55,12 +55,12 @@ const Home = () => {
           fluid="true"
           className=" max-w-6xl bg-white mb-8 rounded-3xl shadow-md">
           <Text className="text-transparent bg-clip-text bg-gradient-to-bl from-violet-700 to-orange-700 font-light font-[helvetica] text-[24px] px-4 py-12 text-center">
-            Let's begin our productivity journey with the mighty keyboard – the
+            Let&apos;s begin our productivity journey with the mighty keyboard – the
             ultimate tool for unlocking efficiency. Get ready to dive into the
             world of Mac keyboard shortcuts, where a few simple key combinations
             can work wonders. From blazing through tasks to maximizing your
             workflow, these shortcuts will revolutionize the way you interact
-            with your Mac. Let's unleash the power of the keyboard and elevate
+            with your Mac. Let&apos;s unleash the power of the keyboard and elevate
             our productivity to new heights!
           </Text>
         </Container>
