@@ -11,7 +11,7 @@ export const Introduction = () => {
               blockquote
               className="text-[22px] font-[roboto] font-light text-gray-300 bg-transparent"
             >
-              Hello! I'm{" "}
+              Hello! I&apos;m{" "}
               <strong className="font-bold">Dharmendra Sharma</strong>, a
               tech-savvy explorer with a passion for innovation and a hunger for
               knowledge—a software engineer ready to embark on exciting coding
