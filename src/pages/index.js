@@ -10,7 +10,7 @@ import {
 } from "@nextui-org/react";
 import Image from "next/image";
 import { IoIosExpand } from "react-icons/io";
-import shortcuts  from "./contents/shortcuts";
+import { shortcuts } from "./contents/shortcuts";
 
 const Home = () => {
   return (
@@ -24,7 +24,10 @@ const Home = () => {
         name="keywords"
         content="tech tips, software tutorials, productivity hacks, tech enthusiasts, latest technologies, actionable insights, digital experience, boost productivity, unlock potential, stay up to date, exciting world of technology"
       />
-      <Container fluid="true" className=" max-w-6xl bg-white my-8 rounded-3xl shadow-md">
+      <Container
+        fluid="true"
+        className=" max-w-6xl bg-white my-8 rounded-3xl shadow-md"
+      >
         <Grid.Container gap={2} justify="center">
           <Grid sm={5}>
             <Container>
@@ -53,15 +56,16 @@ const Home = () => {
       <div className="sm:flex sm:flex-row max-w-6xl mx-auto">
         <Container
           fluid="true"
-          className=" max-w-6xl bg-white mb-8 rounded-3xl shadow-md">
+          className=" max-w-6xl bg-white mb-8 rounded-3xl shadow-md"
+        >
           <Text className="text-transparent bg-clip-text bg-gradient-to-bl from-violet-700 to-orange-700 font-light font-[helvetica] text-[24px] px-4 py-12 text-center">
-            Let&apos;s begin our productivity journey with the mighty keyboard – the
-            ultimate tool for unlocking efficiency. Get ready to dive into the
-            world of Mac keyboard shortcuts, where a few simple key combinations
-            can work wonders. From blazing through tasks to maximizing your
-            workflow, these shortcuts will revolutionize the way you interact
-            with your Mac. Let&apos;s unleash the power of the keyboard and elevate
-            our productivity to new heights!
+            Let&apos;s begin our productivity journey with the mighty keyboard –
+            the ultimate tool for unlocking efficiency. Get ready to dive into
+            the world of Mac keyboard shortcuts, where a few simple key
+            combinations can work wonders. From blazing through tasks to
+            maximizing your workflow, these shortcuts will revolutionize the way
+            you interact with your Mac. Let&apos;s unleash the power of the
+            keyboard and elevate our productivity to new heights!
           </Text>
         </Container>
         <Spacer x={1} />
@@ -110,10 +114,11 @@ const Home = () => {
           Mouse Shortcuts
         </Text>
         <Text className="text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-orange-400 font-light  p-4 text-center">
-          Now if you have invested in mouse that has more than just primary keys,
-          you can always take advantage of the extra keys to perform some of the
-          most common tasks. All you need is to go to settings and search for
-          mouse shortcuts. You can also customize the shortcuts to your liking.
+          Now if you have invested in mouse that has more than just primary
+          keys, you can always take advantage of the extra keys to perform some
+          of the most common tasks. All you need is to go to settings and search
+          for mouse shortcuts. You can also customize the shortcuts to your
+          liking.
         </Text>
         <Image
           src="/mouseShortcut.png"

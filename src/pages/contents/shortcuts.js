@@ -159,5 +159,3 @@ const shortcuts = [
         ],
     },
 ]
-
-export default shortcuts;
