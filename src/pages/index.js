@@ -45,6 +45,7 @@ const Home = () => {
             <Container display="flex" alignItems="center">
               <Image
                 src="/macOS.png"
+                alt="macOS image"
                 width={900}
                 height={200}
                 className="rounded-lg"
