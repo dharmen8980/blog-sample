@@ -20,7 +20,7 @@ export const Introduction = () => {
               exceptional results, I thrive in dynamic environments where
               creativity and collaboration are the guiding forces. Join me on
               this journey of endless possibilities as we shape the future
-              through groundbreaking software solutions. Together, let's code
+              through groundbreaking software solutions. Together, let&apos;s code
               the path to success!
             </Text>
           </Grid>
