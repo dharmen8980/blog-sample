@@ -1,4 +1,4 @@
-const shortcuts = [
+export const shortcuts = [
     {
         "Common Shortcuts": [
             {
