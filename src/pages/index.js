@@ -122,6 +122,7 @@ const Home = () => {
         </Text>
         <Image
           src="/mouseShortcut.png"
+          alt="mouse shortcut image"
           width={700}
           height={300}
           className="mx-auto"
