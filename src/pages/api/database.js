@@ -19,10 +19,9 @@ export default async function handler(req, res) {
   if (req.method === "GET") {
     try {
       const { client, db } = await connectToDatabase();
-      const {collectionName}  = req.query;
 
       // Read documents from the "hacks" collection
-      const collection = db.collection(collectionName);
+      const collection = db.collection("hacks");
       const collectionData = await collection.find().toArray();
 
       res.status(200).json({ message: "Success", collectionData });

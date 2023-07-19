@@ -5,11 +5,8 @@ import { Card, Container, Text, Loading } from "@nextui-org/react";
 const Hacks = () => {
   const [hacks, setHacks] = useState(null);
   const [test, setTest] = useState(null);
-  const collectionName = "hacks";
   useEffect(() => {
-    Axios.get("/api/database", {
-      params: { collectionName: collectionName },
-    }).then((response) => {
+    Axios.get("/api/database").then((response) => {
       setHacks(response.data.collectionData);
     });
   }, []);
@@ -51,12 +48,11 @@ const Hacks = () => {
       </Container>
     </main>
   ) : (
-    // <Loading
-    //   type="points"
-    //   size="xl"
-    //   className="w-full h-[73svh] flex flex-col justify-center"
-    // />
-    <div>{test}</div>
+    <Loading
+      type="points"
+      size="xl"
+      className="w-full h-[73svh] flex flex-col justify-center"
+    />
   );
 };
 
