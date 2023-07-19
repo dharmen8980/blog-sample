@@ -6,16 +6,11 @@ const Hacks = () => {
   const [hacks, setHacks] = useState(null);
   const [test, setTest] = useState(null);
   const collectionName = "hacks";
-  // useEffect(() => {
-  //   Axios.get("/api/database", {
-  //     params: { collectionName: collectionName },
-  //   }).then((response) => {
-  //     setHacks(response.data.collectionData);
-  //   });
-  // }, []);
   useEffect(() => {
-    Axios.get("/api/hello").then((response) => {
-      setTest(response.data.credentials);
+    Axios.get("/api/database", {
+      params: { collectionName: collectionName },
+    }).then((response) => {
+      setHacks(response.data.collectionData);
     });
   }, []);
   return hacks ? (
