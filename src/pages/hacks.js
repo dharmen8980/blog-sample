@@ -7,7 +7,7 @@ const Hacks = () => {
   const [test, setTest] = useState(null);
   const collectionName = "hacks";
   useEffect(() => {
-    Axios.get("/api/database", {
+    Axios.get("https://bytesofwisdom.vercel.app/api/database", {
       params: { collectionName: collectionName },
     }).then((response) => {
       setHacks(response.data.collectionData);
