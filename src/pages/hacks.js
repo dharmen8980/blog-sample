@@ -6,11 +6,16 @@ const Hacks = () => {
   const [hacks, setHacks] = useState(null);
   const [test, setTest] = useState(null);
   const collectionName = "hacks";
+  // useEffect(() => {
+  //   Axios.get("/api/database", {
+  //     params: { collectionName: collectionName },
+  //   }).then((response) => {
+  //     setHacks(response.data.collectionData);
+  //   });
+  // }, []);
   useEffect(() => {
-    Axios.get("/api/database", {
-      params: { collectionName: collectionName },
-    }).then((response) => {
-      setHacks(response.data.collectionData);
+    Axios.get("/api/hello").then((response) => {
+      setTest(response.data.credentials);
     });
   }, []);
   return hacks ? (
@@ -51,11 +56,12 @@ const Hacks = () => {
       </Container>
     </main>
   ) : (
-    <Loading
-      type="points"
-      size="xl"
-      className="w-full h-[73svh] flex flex-col justify-center"
-    />
+    // <Loading
+    //   type="points"
+    //   size="xl"
+    //   className="w-full h-[73svh] flex flex-col justify-center"
+    // />
+    <div>{test}</div>
   );
 };
 
