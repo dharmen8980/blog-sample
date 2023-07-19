@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const url = "mongodb+srv://dharmen8980:sharma55.@cluster0.edsmijj.mongodb.net/";
+const url = "mongodb+srv://dharmen8980:sharma55.@cluster0.edsmijj.mongodb.net/?retryWrites=true&w=majority";
 const dbName = "Blogs";
 const options = {};
 
